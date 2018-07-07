@@ -1,6 +1,6 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "winners",
+  "short_name": "winners",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
