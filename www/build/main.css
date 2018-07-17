@@ -25686,6 +25686,14 @@ ion-navbar.toolbar {
   margin-top: 20px;
 }
 
+.titre2 {
+  text-align: center;
+}
+
 .para {
+  background-color: rgba(245, 78, 78, 0.952);
+}
+
+.test {
   background-color: rgba(245, 78, 78, 0.952);
 }
